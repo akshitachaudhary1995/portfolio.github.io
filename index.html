@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        /* Add your CSS styles here */
+        #downloadButton {
+            background-color: darkorchid; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 12%;
+            cursor: pointer;
+            border-radius: 12px; /* Rounded corners */
+        }
+
+        #downloadButton:hover {
+            background-color: #ff004f; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>  
+                <ul id="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <!-- <li><a href="#patents">Patents</a></li> -->
+                    <li><a href="#publication">Publication</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    
+    </div>
+    
+
+  
+</div>
+    <!-- Your other sections -->
+    <div id="home" class="section" style="height: 50vh;">
+        <div class="moving">
+            <span class="element"></span>
+          </div>
+          <button id="downloadButton">Download Resume</button>
+    </div>
+
+    <div id="about" class="section">
+        <h2 class="section-title">About Me</h2>
+            <div class="container">
+              <div class="about-content">
+                <div class="about-image">
+                  <img src="/images/profile-pic.jpeg" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <ul class=" icon-list">
+                        <li><i class="fas fa-check-circle"></i> Passionate about Data Science</li>
+                      <li><i class="fas fa-check-circle"></i> I am a visionary Software Engineer driven by a fervent passion for harnessing the transformative power of data to drive innovation and unlock new possibilities</li>
+                      <li><i class="fas fa-check-circle"></i> My trajectory in the realm of data has been propelled by an insatiable curiosity, a knack for problem-solving, and an unwavering commitment to continuous learning</li>
+                      <li><i class="fas fa-check-circle"></i>I possess six years of comprehensive professional experience in the fields of Data Science, DevOps, and Cloud technologies </li>
+                      <li> <i class="fas fa-check-circle"></i>Ready to participate in compelling Data Projects focused on developing end-to-end solutions in Data Engineering, Data Science, and DevOps</li>
+                    </ul>
+                    </div>
+                  
+              </div>
+            </div>
+          </section>
+          
+    </div>
+
+    <div id="skills" class="section">
+      <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="card-container">
+              <div class="card">
+                  <h3>Data Science Toolkit</h3>
+                  <p>Python, Pandas, NumPy, SQL </p>
+              </div>
+              <div class="card">
+                  <h3>Data Engineering </h3>
+                  <p>Microsoft Azure Data Factory, Azure Storage, Azure Synapse Analytics </p>
+              </div>
+              <div class="card">
+                <h3>DevOps, Cloud and Server Management </h3>
+                <p>Docker, Kubernetes, Azure DevOps, Hashicorp Key Vault, Azure Key Vault, Git, Jenkins, RestAssured API Automation, Selenium Web Automation, Postman, SeldonCore  </p>
+            </div>
+              <div class="card">
+                <h3> Web Development</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+              <div class="card">
+                  <h3>Machine Learning</h3>
+                  <p>Boosting Models, Classification, Regression, Clustering, Random Forest, Predictive Modelling, Unsupervised Learning (K-means, DBSCAN)</p>
+              </div>
+              <!-- Add more cards as needed -->
+          </div>
+      </div>
+  </div>
+  
+  <div id="projects" class="section">
+    <h2 class="section-title">Github Projects</h2>
+    <div class="project-container">
+        <div class="project-card" onclick="location.href='project1_link';">
+            <h3>Customer Churn Prediction</h3>
+            <p>Developed a predictive churn model in telecom industry, utilizing logistic regression, random forest, and XGBoost, selecting the best-performing model based on evaluation metrics.</p>
+            <a href="project1_github_link" target="_blank"><img src="/images/github.png" alt="GitHub"></a>
+        </div>
+        <div class="project-card" onclick="location.href='project2_link';">
+            <h3>Exploratory Data Analysis</h3>
+            <p>Conducted meticulous Exploratory Data Analysis (EDA) on diverse datasets, employing a range of advanced techniques to glean comprehensive insights, showcasing a commitment to thorough analysis and informed decision-making</p>
+            <a href="project2_github_link" target="_blank"><img src="/images/github.png"alt="GitHub"></a>
+        </div>
+        <div class="project-card" onclick="location.href='project2_link';">
+          <h3>Chatbot Assistant powered by GPT</h3>
+          <p>Created a project leveraging the OpenAI Application Interface to access the GPT-3.5 Turbo model, and developed a user-friendly web application using the Gradio library</p>
+          <a href="project2_github_link" target="_blank"><img src="/images/github.png" alt="GitHub"></a>
+      </div>
+<!--   
+      <div class="project-card" onclick="location.href='project2_link';">
+        <h3>Automatic Form Filling System using LLM</h3>
+        <p>Project 2 Description</p>
+        <a href="project2_github_link" target="_blank"><img src="/images/github.png" alt="GitHub"></a>
+    </div> -->
+    
+
+
+      </div>
+</div>
+
+
+    <div id="education" class="section">
+        <h2 class="section-title">Education</h2>
+            <div class="education-container">
+       
+                <div class="education-card">
+                    <a href="https://sndt.ac.in/about-us" target="_blank">
+                    <h3>Bachelor's Degree</h3>
+                    <ul>
+                        <li><h4>B.Tech. (Bachelors in Technology) in Computer Science and Technology</h4></li>
+                        <li>SNDT Women's University</li>
+                        <li>Year of Graduation: 2017</li>
+                        <li>Grade: A+</li>
+                    </ul>
+                    </a>
+                </div>
+                
+                <div class="education-card">
+                    <a href="https://www.abdn.ac.uk/" target="_blank">
+                    <h3>Master's Degree</h3>
+                    <ul>
+                        <li><h4>MSc in Data Science</h4></li>
+                        <li>University of Aberdeen</li>
+                        <li>Year of Graduation: 2024</li>
+                    </ul>
+                    </a>
+                </div>
+                
+                <!-- Add more education cards as needed -->
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="patents" class="section">
+        <!-- Content for patents section -->
+    </div>
+
+    <div id="publication" class="section">
+      <div class="container">
+          <h2 class="section-title">Publication</h2>
+          <div class="publication">
+              <img src="/images/book_cover.jpg" alt="Publication 1 Cover">
+              <div class="publication-details card">
+                  <h3>Co-Author</h3>
+                  <p>This collaborative publication pioneers the discourse on cloud-native computing, offering expert insights and comprehensive research into the intricate processes of designing, developing, and securing microservices and event-driven applications.</p>
+                  <div class="publication-links">
+                      <a href="https://www.amazon.co.uk/Cloud-native-Computing-Technologies-Enterprise-scale-Microservices-centric/dp/1119814766" class="amazon-icon" target="_blank"><img src="/images/amazon.png" alt="Amazon"></a>
+                      <a href="https://www.wiley.com/en-gb/Cloud+native+Computing:+How+to+Design,+Develop,+and+Secure+Microservices+and+Event+Driven+Applications-p-9781119814764" class="wiley-icon" target="_blank"><img src="/images/wiley.png" alt="Wiley"></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  
+
+  <div id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact
+        </h2>
+        <div class="contact-cards">
+            <div class="contact-card">
+             
+                <h3>Connect with me on LinkedIn or email anytime</h3>
+                <div class="contact-icons">
+                    <a href="https://www.linkedin.com/in/akshitta-r-chaudhary-a6a5469b/" target="_blank" class="linkedin-icon">
+                        <img src="/images/linkedin.png" alt="LinkedIn Profile">
+                    </a>
+                    <a href="mailto:akshittarchaudhary.com" class="email-icon">
+                        <img src="images/gmail-icon.jpg" alt="Email Me">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script>
+        // Smooth scrolling effect for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Function to download the CSV file
+        function downloadResume() {
+            // Assuming "resume.csv" is the name of your CSV file
+            var downloadLink = document.createElement("a");
+            downloadLink.href = "path/to/your/resume.csv"; // Replace with the actual path to your CSV file
+            downloadLink.download = "resume.csv";
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        }
+
+        // Event listener for the download button
+        document.getElementById("downloadButton").addEventListener("click", downloadResume);
+
+        // Typed.js initialization
+        var typed = new Typed('.element', {
+            strings: ["Hello I'm <br><span class='highlight'>Akshitta R Chaudhary</span>", "Hello I'm <br><span class='highlight'>a Data Scientist</span>", "Hello I'm <br><span class='highlight'>a Data Engineer</span>", "Hello I'm <br><span class='highlight'>a Data Enthusiast</span>"],
+            typeSpeed: 50,
+            smartBackspace: true,
+            loop: true
+        });
+
+        window.addEventListener('DOMContentLoaded', (event) => {
+            // Scroll the viewport to the top of the Home section
+            const homeSection = document.getElementById('home');
+            if (homeSection) {
+                homeSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+
+
+        // Add 'active' class to the current navigation link based on scroll position
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('#navbar a');
+            const homeSection = document.getElementById('home');
+        
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    const id = section.getAttribute('id');
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${id}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
