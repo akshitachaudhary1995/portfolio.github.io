@@ -205,7 +205,7 @@
         <div class="contact-cards">
             <div class="contact-card">
              
-                <h3>Connect with me on LinkedIn or email anytime</h3>
+                <h3>Connect with me on LinkedIn or Email</h3>
                 <div class="contact-icons">
                     <a href="https://www.linkedin.com/in/akshitta-r-chaudhary-a6a5469b/" target="_blank" class="linkedin-icon">
                         <img src="images/linkedin.png" alt="LinkedIn Profile">
@@ -219,8 +219,6 @@
     </div>
 </div>
 
-
-
     <script>
         // Smooth scrolling effect for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -232,13 +230,12 @@
                 });
             });
         });
-
-        // Function to download the CSV file
+        // Function to download the PDF File
         function downloadResume() {
             // Assuming "resume.csv" is the name of your CSV file
             var downloadLink = document.createElement("a");
-            downloadLink.href = "path/to/your/resume.csv"; // Replace with the actual path to your CSV file
-            downloadLink.download = "resume.csv";
+            downloadLink.href = "Resume/Akshita_Resume.pdf"; 
+            downloadLink.download = "Akshita_Resume.pdf";
             document.body.appendChild(downloadLink);
             downloadLink.click();
             document.body.removeChild(downloadLink);
